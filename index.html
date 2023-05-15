@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Happy birthday project</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h2>Happy Birthday To My Pet</h2>
+  <audio id="myAudio">
+    <source src="audio.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <button id="playBtn">Play</button>
+
+
+  <div class="body">
+    <div class="birthdayCard">
+      <div class="cardFront">
+        <h3 class="happy">HAPPY BIRTHDAY!</h3>
+        <div class="balloons">
+          <div class="balloonOne"></div>
+          <div class="balloonTwo"></div>
+          <div class="balloonThree"></div>
+          <div class="balloonFour"></div>
+
+
+        </div>
+
+
+      </div>
+      <div class="cardInside">
+        <div id="demo">
+
+
+          <h3 class="back">My heartly Wishes to our bday</h3>
+          <img style="border: 3px solid pink; margin-top :0px; margin-left :50px;width: 245px;height:170px;"
+            src="gimg.jpeg" alt="image_description">
+          <p style="margin-left: 25px;">"kadalil thuli adum menai pola en nejil thuli enaku uire thudipai kudutha en
+            uire"</p>
+          <p style="margin-left: 200px;margin-top: 10px;">... Ipadiku❤️💘❤️</p>
+          <a class="nxt" href="#" onclick="myFunction()">NEXT PAGE</a>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  <script>
+    function myFunction() {
+      document.getElementById("demo").innerHTML = '<div class="cardInside"><h3 class="back">HAPPY BIRTHDAY!</h3><p class="subheading">Dear Darling,</p><p class="subject">Aee nee. naa vathu una virubala nae nenaikura unmaiya sona nee enaku kadavul ta ketu kedacha varam serious papa naa ketu knj nala than nee vatha.naa una rbma love panura nee nenachu paka mudiyatha alavuku nee ena luv panutha vida naa tha athigama una luv panura naa una rbma hurt panita sorry ena manichuru en odabula moochu irukura vara athuku apramu nee enaku tha naa unaku than "i love u ddd 🍼papa❤️🍼" enoda always chelam nee matum than </p><a class="nxt" href="#" onclick="myFunction1()">NEXT PAGE</a></div>';
+    }
+
+    function myFunction1() {
+      document.getElementById("demo").innerHTML = '<div class="cardInside"> <h3 class="back">HAPPY BIRTHDAY!</h3> <p class="subject">Nee rbma padu pada pora ena una avalavu ganam naa thona thona nuu varuva ayoo en daaa kita irukom nuuu nee fell pana vedirukum ena avalavu love torture panuva unmiya sona naa tha atigam love panura una vida nee ena panutha vida intha bday laa iruthu un alavaika mata nuu sola asa than ana untaium sandalam podalana enaku neramae pogathu so knj aa alavaipa enaku ala vaika asa ila ana en vai iruku paru enamavthu olarum naa fun aa than solirupa ana una hurt panura mari airuthu mecha padi satyma una alavaikanum nuu motive lam kediyathu enaku sryyyyyyyyy 😘😘😘😘😘</p><a style="margin-left: -40px; margin-top:30px;"class="nxt" href="#" onclick="myFunction2()">NEXT PAGE</a></div>';
+    }
+    function myFunction2() {
+      document.getElementById("demo").innerHTML = ' <div class="cardInside"> <h3 class="back">HAPPY BIRTHDAY!</h3> <p class="subject">  i loveeee u  ddddd❤️❤️❤️❤️💌💓❤️❤️❤️❤️</p><h4 style="margin-top: 80px;margin-left: 25px;">Happy birthday to the one u who makes my world a brighter and better place </h4><p style="margin-left: 140px; margin-top:30px;"class="nxt1" href="#" onclick="myFunction2()">... Ipadiku❤️💘❤️</p></div>';
+    }
+    document.addEventListener("DOMContentLoaded", function () {
+      var myAudio = document.querySelector("audio");
+      myAudio.play();
+    });
+    $(document).ready(function () {
+      $('#playBtn').click(function () {
+        $('#myAudio')[0].play();
+      });
+    });
+
+
+  </script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+<!-- Happy birthday!! I hope your day is filled with lots of love and laughter! May all of your birthday wishes come true. -->
+<!-- Aee nee naa vathu una virubala nae nenaikura unmaiya sona nee enaku kadavul ta ketu kedacha varam serious papa naa ketu knj nala than nee vatha.naa una rbma love panura nee nenachu paka mudiyatha alavuku nee ena luv panutha vida naa tha athigama una luv panura -->
