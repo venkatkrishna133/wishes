@@ -13,12 +13,7 @@
 
 <body>
   <h2>Happy Birthday To My Pet</h2>
-  <audio id="myAudio">
-    <source src="audio.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
-  </audio>
-
-  <button id="playBtn">Play</button>
+  
 
 
   <div class="body">
@@ -69,12 +64,7 @@
       var myAudio = document.querySelector("audio");
       myAudio.play();
     });
-    $(document).ready(function () {
-      $('#playBtn').click(function () {
-        $('#myAudio')[0].play();
-      });
-    });
-
+    
 
   </script>
 
